@@ -40,13 +40,13 @@ void quicksort(long long x[],long long y[],long long first,long long last)
      if(first<last)
 	{
         	 pivot=first;
-         	i=first;
+         	 i=first;
         	 j=last;
 	         while(i<j)
-			{
-             			while(x[i]<=x[pivot]&&i<last)
-               			  i++;
-           			  while(x[j]>x[pivot])
+			 {
+             	while(x[i]<=x[pivot]&&i<last)
+               		i++;
+           		while(x[j]>x[pivot])
         		         j--;
             			 if(i<j)
 				{
